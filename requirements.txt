@@ -1,0 +1,10 @@
+requests>=2.32.0
+beautifulsoup4>=4.12.3
+lxml>=5.2.2
+colorama>=0.4.6
+reportlab>=4.2.2
+jinja2>=3.1.4
+python-nmap>=0.7.1
+tqdm>=4.66.4
+urllib3>=2.2.2
+notepad requirements.txt
