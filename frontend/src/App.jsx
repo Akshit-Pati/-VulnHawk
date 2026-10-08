@@ -2714,7 +2714,7 @@ const vulnerabilityData = [
 
                     // Start a background scan job.
                     const startResponse = await fetch(
-                      "http://127.0.0.1:8000/scan/start",
+                      "http://127.0.0.1:8001/scan/start",
                       {
                         method: "POST",
                         headers: {
@@ -2740,7 +2740,7 @@ const vulnerabilityData = [
                     // Poll the real backend progress endpoint.
                     const pollScan = async () => {
                       const statusResponse = await fetch(
-                        `http://127.0.0.1:8000/scan/status/${jobId}`
+                        `http://127.0.0.1:8001/scan/status/${jobId}`
                       );
 
                       const statusData = await statusResponse.json();
